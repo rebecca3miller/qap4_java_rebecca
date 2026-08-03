@@ -1,3 +1,5 @@
+import java.sql.Connection;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,6 +10,14 @@ public class Main {
         FileHandler.saveDrugToFile(drug2);
 
         FileHandler.readDrugsFromFile();
+
+        Connection connection = DatabaseConnection.getConnection();
+
+        if (connection != null) {
+            System.out.println("Database connection successful.");
+        } else {
+            System.out.println("Database connection failed.");
+        }
     }
-    
+
 }
