@@ -1,3 +1,8 @@
+<img width="4028" height="1570" alt="IMG_3894" src="https://github.com/user-attachments/assets/e05e1f1c-a255-466e-8c08-46360c095e34" />
+<img width="4028" height="2074" alt="IMG_3893" src="https://github.com/user-attachments/assets/7a02d37c-50a9-4e45-94c9-4353395a4f37" />
+<img width="4028" height="1207" alt="IMG_3892" src="https://github.com/user-attachments/assets/7bc89329-f099-4ff5-b95d-9442fbff317c" />
+<img width="4028" height="1153" alt="IMG_3891" src="https://github.com/user-attachments/assets/11b00687-c66d-4a35-a688-4d6a4e14baf8" />
+<img width="4028" height="1387" alt="IMG_3890" src="https://github.com/user-attachments/assets/f46f03c3-5224-4387-b57a-967e7e454cab" />
 # qap4_java_rebecca
 
 # PROJECT DESCRIPTION
