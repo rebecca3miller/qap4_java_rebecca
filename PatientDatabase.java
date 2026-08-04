@@ -7,7 +7,7 @@ public class PatientDatabase {
     {
         Connection connection = DatabaseConnection.getConnection();
 
-        String sql = "INSERT INTO patients (id, first_name, last_name, date_of_birth) VALUES (?, ?, ?, ?)";
+        String sql = "INSERT INTO patients" + "(patient_id, patient_first_name, patient_last_name, patient_DOB)" + " VALUES (?, ?, ?, ?)";
         try 
         {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);

@@ -18,6 +18,14 @@ public class Main {
         } else {
             System.out.println("Database connection failed.");
         }
+
+        // Create a new patient and save it to the database
+
+        Patient patient1 = new Patient(1, "John", "Doe", "1990-01-01");
+
+        PatientDatabase.savePatient(patient1);
+
+        PatientDatabase.readPatientFromDatabase();
     }
 
 }
