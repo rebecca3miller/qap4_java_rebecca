@@ -46,10 +46,10 @@ public class PatientDatabase {
             while (resultSet.next()) 
             {
                 System.out.println("---------------------------");
-                int id = resultSet.getInt("id");
-                String firstName = resultSet.getString("first_name");
-                String lastName = resultSet.getString("last_name");
-                String dateOfBirth = resultSet.getString("date_of_birth");
+                int id = resultSet.getInt("patient_id");
+                String firstName = resultSet.getString("patient_first_name");
+                String lastName = resultSet.getString("patient_last_name");
+                String dateOfBirth = resultSet.getString("patient_dob");
 
                 System.out.println("Patient ID: " + id);
                 System.out.println("First Name: " + firstName);
